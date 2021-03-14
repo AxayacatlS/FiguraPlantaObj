@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<!-- script de A-Frane version1 1.0.0 -->
-		<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-		<!-- script de AR.JS con soporte de marker + location -->
-		<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
-	</head>
-    <body style="margin : 0px; overflow: hidden;">
-        <a-scene embedded arjs>
-			<a-marker preset="hiro">
-				<!--<a-sphere position="0 0 0" radius="0.6" color="#EF2D5E"></a-sphere>-->
-				<a-entity gltf-model="untitled.glb" scale="5 5 5" crossOrigin="anonymous">
-				</a-entity>
-			</a-marker>
-        <a-entity camera></a-entity>
+<html>  
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+  </head>   
+
+  <body>
+    <a-scene embedded arjs>
+      <a-entity scale=".2 .2 .2"> 
+        <a-entity gltf-model="untitled.glb" scale="3 3 3" crossOrigin="anonymous">
+        </a-entity>
+        <a-marker-camera preset='hiro'></a-marker-camera>
         </a-scene>
-    </body>
-</html>
+      </body>
+    </html>
