@@ -6,7 +6,7 @@
   </head>   
 
   <body>
-    <div></div>
+    
     <!--<a-assets>
       <a-asset-item id="obj" src="plant.obj"></a-asset-item>
     </a-assets>-->
