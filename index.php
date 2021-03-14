@@ -11,6 +11,7 @@
         <a-entity gltf-model="untitled.glb" scale="3 3 3" crossOrigin="anonymous">
         </a-entity>
         <a-marker-camera preset='hiro'></a-marker-camera>
+      </a-entity>
      </a-scene>
   </body>
 </html>
