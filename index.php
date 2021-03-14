@@ -6,10 +6,14 @@
   </head>   
 
   <body>
+    
+    <a-assets>
+      <a-asset-item id="obj" src="plant.obj"></a-asset-item>
+    </a-assets>
     <a-scene embedded arjs>
       <a-entity scale=".2 .2 .2"> 
-        <a-entity gltf-model="planta.glb" scale="3 3 3" crossOrigin="anonymous">
-        </a-entity>
+        <!--<a-entity gltf-model="planta.glb" scale="3 3 3" crossOrigin="anonymous"></a-entity>-->
+        <a-entity obj-model="obj: #obj;" scale="1 1 1" crossOrigin="anonymous"></a-entity>
         <a-marker-camera preset='hiro'></a-marker-camera>
       </a-entity>
      </a-scene>
