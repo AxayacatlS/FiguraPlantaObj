@@ -9,7 +9,9 @@
     <body style="margin : 0px; overflow: hidden;">
         <a-scene embedded arjs>
 			<a-marker preset="hiro">
-				<a-sphere position="0 0 0" radius="0.6" color="#EF2D5E"></a-sphere>
+				<!--<a-sphere position="0 0 0" radius="0.6" color="#EF2D5E"></a-sphere>-->
+				<a-entity gltf-model="fox.glb" scale="5 5 5" crossOrigin="anonymous">
+				</a-entity>
 			</a-marker>
         <a-entity camera></a-entity>
         </a-scene>
